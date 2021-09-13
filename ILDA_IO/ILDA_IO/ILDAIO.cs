@@ -684,7 +684,9 @@ public class ILDAIO
         long size = stream.Length;
         List<long> offsets = new();
 
-        // Scan for All Headers
+        // Scan for All Headers - this method of finding offsets
+        // is discouraged in the ILDA spec so will need to be replaces.
+        // Hopefully soon.
         for (long i = 0; i < size; i++)
         {
             reader.BaseStream.Seek(i, SeekOrigin.Begin);
