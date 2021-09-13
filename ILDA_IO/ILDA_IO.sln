@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31606.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILDA_IO", "ILDA_IO\ILDA_IO.csproj", "{AF51CF51-19FD-470E-B5F4-731011362210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILDATests", "ILDATests\ILDATests.csproj", "{F7FE3514-E148-488A-A496-1D000B254D67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILDAViewer", "ILDAViewer\ILDAViewer.csproj", "{C49DBBFA-E8DF-4D59-BDF6-7B1533B94B83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF51CF51-19FD-470E-B5F4-731011362210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF51CF51-19FD-470E-B5F4-731011362210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF51CF51-19FD-470E-B5F4-731011362210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF51CF51-19FD-470E-B5F4-731011362210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7FE3514-E148-488A-A496-1D000B254D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7FE3514-E148-488A-A496-1D000B254D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7FE3514-E148-488A-A496-1D000B254D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7FE3514-E148-488A-A496-1D000B254D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C49DBBFA-E8DF-4D59-BDF6-7B1533B94B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C49DBBFA-E8DF-4D59-BDF6-7B1533B94B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C49DBBFA-E8DF-4D59-BDF6-7B1533B94B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C49DBBFA-E8DF-4D59-BDF6-7B1533B94B83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {994315E8-F0EB-47E6-AC8D-34EE10B6A288}
+	EndGlobalSection
+EndGlobal
