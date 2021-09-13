@@ -685,7 +685,7 @@ public class ILDAIO
         List<long> offsets = new();
 
         // Scan for All Headers - this method of finding offsets
-        // is discouraged in the ILDA spec so will need to be replaces.
+        // is discouraged in the ILDA spec so will need to be replaced.
         // Hopefully soon.
         for (long i = 0; i < size; i++)
         {
