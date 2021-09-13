@@ -1,7 +1,7 @@
 # ildaviewer
 ildaviewer project
 
-<img src=“<img src=“https://https://github.com/keithr/ildaviewer/ReadmeImage.png”>
+<img src=“<img src=“./ReadmeImage.png”>
 
 This is a personal project. The goal is to write a tool that can create rotoscoped ilda files for laser shows 
 without having to pay a too much for software that doesn't work very well. 
