@@ -1,8 +1,6 @@
 # ildaviewer
 ildaviewer project
 
-# Image
-
 ![Image](ReadmeImage.png)
 
 This is a personal project. The goal is to write a tool that can create rotoscoped ilda files for laser shows 
