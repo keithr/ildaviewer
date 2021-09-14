@@ -702,7 +702,6 @@ public class ILDAIO
         for (int i = 0; i < offsets.Count; i++) 
         {
             var offset = offsets[i];
-            //var next = i < offsets.Count - 1 ? offsets[i + 1] : reader.BaseStream.Length;
             reader.BaseStream.Seek(offset, SeekOrigin.Begin);
             var buffer = reader.ReadBytes(32);
             var idla = Encoding.UTF8.GetString(buffer, 0, 4);
@@ -768,7 +767,7 @@ public class ILDAIO
                                 Y = BitConverter.ToInt16(Reverse(buf, 2, 2)),
                                 Z = BitConverter.ToInt16(Reverse(buf, 4, 2)),
                                 Status = (int)buf[6],
-                                RGBColor = Color.FromArgb(255, buf[7], buf[8], buf[9])
+                                RGBColor = Color.FromArgb(255, buf[9], buf[8], buf[7])
                             };
                             frame.Add(p3d);
                         }
@@ -786,7 +785,7 @@ public class ILDAIO
                                 X = BitConverter.ToInt16(Reverse(buf, 0, 2)),
                                 Y = BitConverter.ToInt16(Reverse(buf, 2, 2)),
                                 Status = (int)buf[4],
-                                RGBColor = Color.FromArgb(255, buf[5], buf[6], buf[7])
+                                RGBColor = Color.FromArgb(255, buf[7], buf[6], buf[5])
                             };
                             frame.Add(p2d);
                         }
@@ -800,10 +799,5 @@ public class ILDAIO
         }
 
         return retval;
-    }
-
-    public static void Write(IILDA ilda, string filename)
-    {
-
     }
 }
